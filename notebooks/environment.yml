@@ -1,0 +1,8 @@
+name: persian_media
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - nbformat
+prefix: C:\Users\user\anaconda3\envs\persian_media
