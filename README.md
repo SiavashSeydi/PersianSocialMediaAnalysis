@@ -34,13 +34,6 @@ conda activate persian_media
 conda install --file requirements.txt
 ```
 
-Or use:
-
-```bash
-conda env create -f environment.yml
-conda activate persian_media
-```
-
 ### 3. Configure your environment
 
 Create a `.env` file based on the template:
