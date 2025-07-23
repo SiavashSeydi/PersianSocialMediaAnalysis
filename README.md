@@ -2,14 +2,14 @@
 
 This project scrapes Persian-language Telegram channels (e.g., Iran International) and applies natural language processing to extract and visualize war-related topics using BERTopic.
 
-## 🚀 Features
+## Features
 
 - Scrapes thousands of Telegram messages using Telethon
 - Persian text cleaning, normalization, and tokenization
 - Phrase modeling (bigrams) using Gensim
 - Topic modeling using BERTopic and Sentence-Transformer embeddings
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - Python, Telethon, Pandas, Hazm, Gensim
 - BERTopic, UMAP, HDBSCAN
@@ -51,23 +51,14 @@ TG_API_ID=your_api_id
 TG_API_HASH=your_api_hash
 ```
 
----
-
-## 🔐 Security Notes
-
-- **Do NOT commit your `.env` file.** It contains private API credentials.
-- `.env` is already included in `.gitignore` for safety.
-
----
-
-## 🧠 Future Work
+## Future Work
 - Improving the tokenization and topic extraction
 - Integrate interactive topic exploration (e.g., Streamlit or PyLDAvis)
 - Support scraping multiple channels in parallel
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Hazm](https://github.com/sobhe/hazm) for Persian NLP tools  
 - [BERTopic](https://github.com/MaartenGr/BERTopic) for flexible topic modeling  
