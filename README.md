@@ -31,7 +31,7 @@ cd PersianSocialMediaAnalysis
 ```bash
 conda create -n persian_media python=3.10
 conda activate persian_media
-conda install --file requirements.txt
+conda install --file notebooks/requirements.txt
 ```
 
 ### 3. Configure your environment
